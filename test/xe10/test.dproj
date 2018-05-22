@@ -4,7 +4,7 @@
         <MainSource>test.dpr</MainSource>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
-        <ProjectVersion>18.2</ProjectVersion>
+        <ProjectVersion>18.4</ProjectVersion>
         <Base>True</Base>
         <TargetedPlatforms>1</TargetedPlatforms>
         <AppType>Console</AppType>
@@ -92,6 +92,17 @@
         <DCCReference Include="..\code\ooVersion.Compare.GreaterEqual_test.pas"/>
         <DCCReference Include="..\code\ooVersion.Compare.Less_test.pas"/>
         <DCCReference Include="..\code\ooVersion.Compare.LessEqual_test.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.Equal.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.Greater.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.GreaterEqual.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.Less.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.LessEqual.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Compare.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Format.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Hash.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Stage.Format.pas"/>
+        <DCCReference Include="..\..\code\ooVersion.Stage.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

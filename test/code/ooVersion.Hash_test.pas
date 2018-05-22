@@ -1,5 +1,5 @@
 {
-  Copyright (c) 2016, Vencejo Software
+  Copyright (c) 2018, Vencejo Software
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
@@ -20,8 +20,8 @@ type
   TVersionHashTest = class sealed(TTestCase)
   published
     procedure VersionHashIs0;
-    procedure VersionHashIs198;
-    procedure VersionHashIs1024;
+    procedure VersionHashIs14202;
+    procedure VersionHashIs2833054;
   end;
 
 implementation
@@ -34,20 +34,20 @@ begin
   CheckEquals(0, TVersionHash.New(Version).Calculated);
 end;
 
-procedure TVersionHashTest.VersionHashIs1024;
+procedure TVersionHashTest.VersionHashIs2833054;
 var
   Version: IVersion;
 begin
   Version := TVersion.New(255, 255, 255, 255, TVersionStage.New(Productive), Date);
-  CheckEquals(1024, TVersionHash.New(Version).Calculated);
+  CheckEquals(2833054, TVersionHash.New(Version).Calculated);
 end;
 
-procedure TVersionHashTest.VersionHashIs198;
+procedure TVersionHashTest.VersionHashIs14202;
 var
   Version: IVersion;
 begin
   Version := TVersion.New(1, 2, 3, 190, TVersionStage.New(Beta), Date);
-  CheckEquals(198, TVersionHash.New(Version).Calculated);
+  CheckEquals(14202, TVersionHash.New(Version).Calculated);
 end;
 
 initialization

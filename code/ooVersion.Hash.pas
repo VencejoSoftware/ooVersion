@@ -1,6 +1,6 @@
 {$REGION 'documentation'}
 {
-  Copyright (c) 2016, Vencejo Software
+  Copyright (c) 2018, Vencejo Software
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
@@ -60,7 +60,8 @@ implementation
 
 function TVersionHash.Calculated: Integer;
 begin
-  Result := _Version.Major + _Version.Minor + _Version.Patch + _Version.Build + Ord(_Version.Stage.Code);
+  Result := (_Version.Major * 10000) + (_Version.Minor * 1000) + (_Version.Patch * 100) + (_Version.Build * 10) +
+    Ord(_Version.Stage.Code);
 end;
 
 constructor TVersionHash.Create(const Version: IVersion);

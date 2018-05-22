@@ -1,5 +1,5 @@
 {
-  Copyright (c) 2016, Vencejo Software
+  Copyright (c) 2018, Vencejo Software
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
@@ -16,7 +16,18 @@ uses
   ooVersion.Compare.Greater_test in '..\code\ooVersion.Compare.Greater_test.pas',
   ooVersion.Compare.GreaterEqual_test in '..\code\ooVersion.Compare.GreaterEqual_test.pas',
   ooVersion.Compare.Less_test in '..\code\ooVersion.Compare.Less_test.pas',
-  ooVersion.Compare.LessEqual_test in '..\code\ooVersion.Compare.LessEqual_test.pas';
+  ooVersion.Compare.LessEqual_test in '..\code\ooVersion.Compare.LessEqual_test.pas',
+  ooVersion.Compare.Equal in '..\..\code\ooVersion.Compare.Equal.pas',
+  ooVersion.Compare.Greater in '..\..\code\ooVersion.Compare.Greater.pas',
+  ooVersion.Compare.GreaterEqual in '..\..\code\ooVersion.Compare.GreaterEqual.pas',
+  ooVersion.Compare.Less in '..\..\code\ooVersion.Compare.Less.pas',
+  ooVersion.Compare.LessEqual in '..\..\code\ooVersion.Compare.LessEqual.pas',
+  ooVersion.Compare in '..\..\code\ooVersion.Compare.pas',
+  ooVersion.Format in '..\..\code\ooVersion.Format.pas',
+  ooVersion.Hash in '..\..\code\ooVersion.Hash.pas',
+  ooVersion in '..\..\code\ooVersion.pas',
+  ooVersion.Stage.Format in '..\..\code\ooVersion.Stage.Format.pas',
+  ooVersion.Stage in '..\..\code\ooVersion.Stage.pas';
 
 {R *.RES}
 
