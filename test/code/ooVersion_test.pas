@@ -9,7 +9,7 @@ interface
 
 uses
   Forms, SysUtils,
-  ooVersion.Stage,
+  ooVersionStage,
   ooVersion,
 {$IFDEF FPC}
   fpcunit, testregistry

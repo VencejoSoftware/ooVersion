@@ -10,14 +10,14 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion.Compare.Greater;
+unit ooVersionCompareGreater;
 
 interface
 
 uses
   ooVersion,
-  ooVersion.Hash,
-  ooVersion.Compare;
+  ooVersionHash,
+  ooVersionCompare;
 
 type
 {$REGION 'documentation'}

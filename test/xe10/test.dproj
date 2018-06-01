@@ -82,27 +82,27 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\code\ooVersion.Stage_test.pas"/>
+        <DCCReference Include="..\code\ooVersionStage_test.pas"/>
         <DCCReference Include="..\code\ooVersion_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Stage.Format_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Format_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Hash_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Compare.Equal_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Compare.Greater_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Compare.GreaterEqual_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Compare.Less_test.pas"/>
-        <DCCReference Include="..\code\ooVersion.Compare.LessEqual_test.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.Equal.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.Greater.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.GreaterEqual.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.Less.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.LessEqual.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Compare.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Format.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Hash.pas"/>
+        <DCCReference Include="..\code\ooVersionStageFormat_test.pas"/>
+        <DCCReference Include="..\code\ooVersionFormat_test.pas"/>
+        <DCCReference Include="..\code\ooVersionHash_test.pas"/>
+        <DCCReference Include="..\code\ooVersionCompareEqual_test.pas"/>
+        <DCCReference Include="..\code\ooVersionCompareGreater_test.pas"/>
+        <DCCReference Include="..\code\ooVersionCompareGreaterEqual_test.pas"/>
+        <DCCReference Include="..\code\ooVersionCompareLess_test.pas"/>
+        <DCCReference Include="..\code\ooVersionCompareLessEqual_test.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompareEqual.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompareGreater.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompareGreaterEqual.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompareLess.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompareLessEqual.pas"/>
+        <DCCReference Include="..\..\code\ooVersionCompare.pas"/>
+        <DCCReference Include="..\..\code\ooVersionFormat.pas"/>
+        <DCCReference Include="..\..\code\ooVersionHash.pas"/>
         <DCCReference Include="..\..\code\ooVersion.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Stage.Format.pas"/>
-        <DCCReference Include="..\..\code\ooVersion.Stage.pas"/>
+        <DCCReference Include="..\..\code\ooVersionStageFormat.pas"/>
+        <DCCReference Include="..\..\code\ooVersionStage.pas"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

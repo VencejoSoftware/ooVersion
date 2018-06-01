@@ -7,29 +7,29 @@ program test;
 
 uses
   ooRunTest,
-  ooVersion.Stage_test in '..\code\ooVersion.Stage_test.pas',
+  ooVersionStage_test in '..\code\ooVersionStage_test.pas',
   ooVersion_test in '..\code\ooVersion_test.pas',
-  ooVersion.Stage.Format_test in '..\code\ooVersion.Stage.Format_test.pas',
-  ooVersion.Format_test in '..\code\ooVersion.Format_test.pas',
-  ooVersion.Hash_test in '..\code\ooVersion.Hash_test.pas',
-  ooVersion.Compare.Equal_test in '..\code\ooVersion.Compare.Equal_test.pas',
-  ooVersion.Compare.Greater_test in '..\code\ooVersion.Compare.Greater_test.pas',
-  ooVersion.Compare.GreaterEqual_test in '..\code\ooVersion.Compare.GreaterEqual_test.pas',
-  ooVersion.Compare.Less_test in '..\code\ooVersion.Compare.Less_test.pas',
-  ooVersion.Compare.LessEqual_test in '..\code\ooVersion.Compare.LessEqual_test.pas',
-  ooVersion.Compare.Equal in '..\..\code\ooVersion.Compare.Equal.pas',
-  ooVersion.Compare.Greater in '..\..\code\ooVersion.Compare.Greater.pas',
-  ooVersion.Compare.GreaterEqual in '..\..\code\ooVersion.Compare.GreaterEqual.pas',
-  ooVersion.Compare.Less in '..\..\code\ooVersion.Compare.Less.pas',
-  ooVersion.Compare.LessEqual in '..\..\code\ooVersion.Compare.LessEqual.pas',
-  ooVersion.Compare in '..\..\code\ooVersion.Compare.pas',
-  ooVersion.Format in '..\..\code\ooVersion.Format.pas',
-  ooVersion.Hash in '..\..\code\ooVersion.Hash.pas',
+  ooVersionStageFormat_test in '..\code\ooVersionStageFormat_test.pas',
+  ooVersionFormat_test in '..\code\ooVersionFormat_test.pas',
+  ooVersionHash_test in '..\code\ooVersionHash_test.pas',
+  ooVersionCompareEqual_test in '..\code\ooVersionCompareEqual_test.pas',
+  ooVersionCompareGreater_test in '..\code\ooVersionCompareGreater_test.pas',
+  ooVersionCompareGreaterEqual_test in '..\code\ooVersionCompareGreaterEqual_test.pas',
+  ooVersionCompareLess_test in '..\code\ooVersionCompareLess_test.pas',
+  ooVersionCompareLessEqual_test in '..\code\ooVersionCompareLessEqual_test.pas',
+  ooVersionCompareEqual in '..\..\code\ooVersionCompareEqual.pas',
+  ooVersionCompareGreater in '..\..\code\ooVersionCompareGreater.pas',
+  ooVersionCompareGreaterEqual in '..\..\code\ooVersionCompareGreaterEqual.pas',
+  ooVersionCompareLess in '..\..\code\ooVersionCompareLess.pas',
+  ooVersionCompareLessEqual in '..\..\code\ooVersionCompareLessEqual.pas',
+  ooVersionCompare in '..\..\code\ooVersionCompare.pas',
+  ooVersionFormat in '..\..\code\ooVersionFormat.pas',
+  ooVersionHash in '..\..\code\ooVersionHash.pas',
   ooVersion in '..\..\code\ooVersion.pas',
-  ooVersion.Stage.Format in '..\..\code\ooVersion.Stage.Format.pas',
-  ooVersion.Stage in '..\..\code\ooVersion.Stage.pas';
+  ooVersionStageFormat in '..\..\code\ooVersionStageFormat.pas',
+  ooVersionStage in '..\..\code\ooVersionStage.pas';
 
-{R *.RES}
+{ R *.RES }
 
 begin
   Run;

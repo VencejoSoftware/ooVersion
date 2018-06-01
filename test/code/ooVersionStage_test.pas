@@ -3,13 +3,13 @@
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
-unit ooVersion.Stage_test;
+unit ooVersionStage_test;
 
 interface
 
 uses
   Forms, SysUtils,
-  ooVersion.Stage,
+  ooVersionStage,
 {$IFDEF FPC}
   fpcunit, testregistry
 {$ELSE}

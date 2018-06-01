@@ -15,7 +15,7 @@ unit ooVersion;
 interface
 
 uses
-  ooVersion.Stage;
+  ooVersionStage;
 
 type
 {$REGION 'documentation'}

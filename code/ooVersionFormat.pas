@@ -10,13 +10,13 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion.Format;
+unit ooVersionFormat;
 
 interface
 
 uses
   SysUtils,
-  ooVersion, ooVersion.Stage.Format;
+  ooVersion, ooVersionStageFormat;
 
 type
 {$REGION 'documentation'}
