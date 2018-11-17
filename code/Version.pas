@@ -10,12 +10,12 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion;
+unit Version;
 
 interface
 
 uses
-  ooVersion.Stage;
+  VersionStage;
 
 type
 {$REGION 'documentation'}

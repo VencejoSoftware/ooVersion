@@ -3,14 +3,14 @@
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
-unit ooVersion.Compare.Less_test;
+unit VersionCompareLess_test;
 
 interface
 
 uses
   Forms, SysUtils,
-  ooVersion.Stage, ooVersion,
-  ooVersion.Compare.Less,
+  VersionStage, Version,
+  VersionCompareLess,
 {$IFDEF FPC}
   fpcunit, testregistry
 {$ELSE}

@@ -5,9 +5,9 @@ interface
 uses
   Windows, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, ExtCtrls, StdCtrls,
-  ooVersion, ooVersion.Stage, ooVersion.Format, ooVersion.Stage.Format, ooVersion.Hash,
-  ooVersion.Compare.Equal, ooVersion.Compare.Greater, ooVersion.Compare.GreaterEqual, ooVersion.Compare.Less,
-  ooVersion.Compare.LessEqual, ooVersion.Compare;
+  Version, VersionStage, VersionFormat, VersionStageFormat, VersionHash,
+  VersionCompareEqual, VersionCompareGreater, VersionCompareGreaterEqual, VersionCompareLess,
+  VersionCompareLessEqual, VersionCompare;
 
 type
   TMainForm = class(TForm)

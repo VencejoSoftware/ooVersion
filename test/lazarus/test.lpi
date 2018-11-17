@@ -122,87 +122,87 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="..\code\ooVersion.Compare.Equal_test.pas"/>
+        <Filename Value="..\code\VersionCompareEqual_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit1>
       <Unit2>
-        <Filename Value="..\code\ooVersion.Compare.Greater_test.pas"/>
+        <Filename Value="..\code\VersionCompareGreater_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\code\ooVersion.Compare.GreaterEqual_test.pas"/>
+        <Filename Value="..\code\VersionCompareGreaterEqual_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit3>
       <Unit4>
-        <Filename Value="..\code\ooVersion.Compare.Less_test.pas"/>
+        <Filename Value="..\code\VersionCompareLess_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit4>
       <Unit5>
-        <Filename Value="..\code\ooVersion.Compare.LessEqual_test.pas"/>
+        <Filename Value="..\code\VersionCompareLessEqual_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit5>
       <Unit6>
-        <Filename Value="..\code\ooVersion.Format_test.pas"/>
+        <Filename Value="..\code\VersionFormat_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit6>
       <Unit7>
-        <Filename Value="..\code\ooVersion.Hash_test.pas"/>
+        <Filename Value="..\code\VersionHash_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit7>
       <Unit8>
-        <Filename Value="..\code\ooVersion.Stage.Format_test.pas"/>
+        <Filename Value="..\code\VersionStageFormat_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit8>
       <Unit9>
-        <Filename Value="..\code\ooVersion.Stage_test.pas"/>
+        <Filename Value="..\code\VersionStage_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit9>
       <Unit10>
-        <Filename Value="..\code\ooVersion_test.pas"/>
+        <Filename Value="..\code\Version_test.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit10>
       <Unit11>
-        <Filename Value="..\..\code\ooVersion.Compare.Equal.pas"/>
+        <Filename Value="..\..\code\VersionCompareEqual.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit11>
       <Unit12>
-        <Filename Value="..\..\code\ooVersion.Compare.Greater.pas"/>
+        <Filename Value="..\..\code\VersionCompareGreater.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit12>
       <Unit13>
-        <Filename Value="..\..\code\ooVersion.Compare.GreaterEqual.pas"/>
+        <Filename Value="..\..\code\VersionCompareGreaterEqual.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit13>
       <Unit14>
-        <Filename Value="..\..\code\ooVersion.Compare.Less.pas"/>
+        <Filename Value="..\..\code\VersionCompareLess.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit14>
       <Unit15>
-        <Filename Value="..\..\code\ooVersion.Compare.LessEqual.pas"/>
+        <Filename Value="..\..\code\VersionCompareLessEqual.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit15>
       <Unit16>
-        <Filename Value="..\..\code\ooVersion.Compare.pas"/>
+        <Filename Value="..\..\code\VersionCompare.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit16>
       <Unit17>
-        <Filename Value="..\..\code\ooVersion.Format.pas"/>
+        <Filename Value="..\..\code\VersionFormat.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit17>
       <Unit18>
-        <Filename Value="..\..\code\ooVersion.Hash.pas"/>
+        <Filename Value="..\..\code\VersionHash.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit18>
       <Unit19>
-        <Filename Value="..\..\code\ooVersion.pas"/>
+        <Filename Value="..\..\code\Versionpas"/>
         <IsPartOfProject Value="True"/>
       </Unit19>
       <Unit20>
-        <Filename Value="..\..\code\ooVersion.Stage.Format.pas"/>
+        <Filename Value="..\..\code\VersionStageFormat.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit20>
       <Unit21>
-        <Filename Value="..\..\code\ooVersion.Stage.pas"/>
+        <Filename Value="..\..\code\VersionStage.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit21>
     </Units>

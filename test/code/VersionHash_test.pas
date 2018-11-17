@@ -3,13 +3,13 @@
   Distributed under the terms of the Modified BSD License
   The full license is distributed with this software
 }
-unit ooVersion.Hash_test;
+unit VersionHash_test;
 
 interface
 
 uses
   Forms, SysUtils,
-  ooVersion.Stage, ooVersion, ooVersion.Hash,
+  VersionStage, Version, VersionHash,
 {$IFDEF FPC}
   fpcunit, testregistry
 {$ELSE}

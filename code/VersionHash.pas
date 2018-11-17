@@ -10,12 +10,12 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion.Hash;
+unit VersionHash;
 
 interface
 
 uses
-  ooVersion;
+  Version;
 
 type
 {$REGION 'documentation'}

@@ -10,25 +10,25 @@
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion.Compare.Greater;
+unit VersionCompareGreaterEqual;
 
 interface
 
 uses
-  ooVersion,
-  ooVersion.Hash,
-  ooVersion.Compare;
+  Version,
+  VersionHash,
+  VersionCompare;
 
 type
 {$REGION 'documentation'}
 {
   @abstract(Implementation of @link(IVersionCompare))
-  Compare if version A are greater than version B
+  Compare if version A are greater or equal than version B
   @member(Compare @seealso(IVersionCompare.Compare))
   @member(New Create a new @classname as interface)
 }
 {$ENDREGION}
-  TVersionIsGreater = class sealed(TInterfacedObject, IVersionCompare)
+  TVersionIsGreaterOrEqual = class sealed(TInterfacedObject, IVersionCompare)
   public
     function Compare(const A, B: IVersion): Boolean;
     class function New: IVersionCompare;
@@ -36,14 +36,14 @@ type
 
 implementation
 
-function TVersionIsGreater.Compare(const A, B: IVersion): Boolean;
+function TVersionIsGreaterOrEqual.Compare(const A, B: IVersion): Boolean;
 begin
-  Result := TVersionHash.New(A).Calculated > TVersionHash.New(B).Calculated;
+  Result := TVersionHash.New(A).Calculated >= TVersionHash.New(B).Calculated;
 end;
 
-class function TVersionIsGreater.New: IVersionCompare;
+class function TVersionIsGreaterOrEqual.New: IVersionCompare;
 begin
-  Result := TVersionIsGreater.Create;
+  Result := TVersionIsGreaterOrEqual.Create;
 end;
 
 end.

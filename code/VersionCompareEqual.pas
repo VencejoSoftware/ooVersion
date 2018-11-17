@@ -5,30 +5,30 @@
   The full license is distributed with this software
 }
 {
-  Lesser comparer
+  Equality comparer
   @created(28/10/2017)
   @author Vencejo Software <www.vencejosoft.com>
 }
 {$ENDREGION}
-unit ooVersion.Compare.Less;
+unit VersionCompareEqual;
 
 interface
 
 uses
-  ooVersion,
-  ooVersion.Hash,
-  ooVersion.Compare;
+  Version,
+  VersionHash,
+  VersionCompare;
 
 type
 {$REGION 'documentation'}
 {
   @abstract(Implementation of @link(IVersionCompare))
-  Compare if version A are lesser than version B
+  Compare if two version are equals
   @member(Compare @seealso(IVersionCompare.Compare))
   @member(New Create a new @classname as interface)
 }
 {$ENDREGION}
-  TVersionIsLesser = class sealed(TInterfacedObject, IVersionCompare)
+  TVersionIsEqual = class sealed(TInterfacedObject, IVersionCompare)
   public
     function Compare(const A, B: IVersion): Boolean;
     class function New: IVersionCompare;
@@ -36,14 +36,14 @@ type
 
 implementation
 
-function TVersionIsLesser.Compare(const A, B: IVersion): Boolean;
+function TVersionIsEqual.Compare(const A, B: IVersion): Boolean;
 begin
-  Result := TVersionHash.New(A).Calculated < TVersionHash.New(B).Calculated;
+  Result := TVersionHash.New(A).Calculated = TVersionHash.New(B).Calculated;
 end;
 
-class function TVersionIsLesser.New: IVersionCompare;
+class function TVersionIsEqual.New: IVersionCompare;
 begin
-  Result := TVersionIsLesser.Create;
+  Result := TVersionIsEqual.Create;
 end;
 
 end.
